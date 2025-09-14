@@ -68,8 +68,12 @@ Dirigido a: Desarrolladores web en entornos PHP que necesiten una base estructur
 1. Clonar el repositorio en la carpeta `htdocs`:
 
    ```bash
-   git clone https://github.com/usuario/proyecto.git
+   git clone https://github.com/Rafa-x64/proyecto.git
+   ```
+   ```bash
    cd proyecto
+   ```
+   ```bash
    composer install
    ```
 
