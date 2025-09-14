@@ -79,8 +79,12 @@ Dirigido a: Desarrolladores web en entornos PHP que necesiten una base estructur
 1. Clonar el repositorio en la carpeta `htdocs`:
 
    ```bash
-   git clone https://github.com/usuario/proyecto.git
+   git clone https://github.com/Rafa-x64/proyecto.git
+   ```
+   ```bash
    cd proyecto
+   ```
+   ```bash
    composer install
    ```
 
@@ -88,9 +92,15 @@ Dirigido a: Desarrolladores web en entornos PHP que necesiten una base estructur
 
 #### Configuración inicial:
 
+<<<<<<< HEAD
    - **config/SERVER:** contiene credenciales, claves de encriptación y parámetros de seguridad.
 
    - **config/APP:** contiene constantes generales como nombre del sistema y rutas base.
+=======
+- **config/SERVER:** contiene credenciales, claves de encriptación y parámetros de seguridad.
+
+- **config/APP:** contiene constantes generales como nombre del sistema y rutas base.
+>>>>>>> dab62ae6665b44e4fbfb7099a0d2d8311f560af9
 
 > `💡 Revisa estos archivos antes de desplegar en producción. Puedes parametrizar según entorno (dev, staging, prod).`
 
