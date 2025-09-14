@@ -2,27 +2,36 @@
 
 Este repositorio contiene una aplicación web estructurada bajo el patrón **Modelo-Vista-Controlador** (MVC), diseñada para facilitar el desarrollo escalable, seguro y mantenible de interfaces dinámicas en PHP. A continuación se detallan las secciones clave del sistema y las instrucciones para su instalación, uso y extensión.
 
-## Índice de navegación
-
 <h2 align="center">Índice de navegación</h2>
 
-<p align="center">
-  <a href="#1-propósito-y-descripción-funcional">1. Propósito</a> •
-  <a href="#2-público-objetivo-y-tecnologías-utilizadas">2. Público y tecnologías</a> •
-  <a href="#3-instalación-y-configuración">3. Instalación</a> •
-  <a href="#4-estructura-del-proyecto">4. Estructura</a> •
-  <a href="#5-flujo-de-ejecución">5. Flujo</a> •
-  <a href="#6-convenciones-de-desarrollo">6. Convenciones</a> •
-  <a href="#7-frontend">7. Frontend</a> •
-  <a href="#8-backend">8. Backend</a> •
-  <a href="#9-reutilización-y-helpers">9. Helpers</a> •
-  <a href="#10-testing-y-depuración">10. Testing</a> •
-  <a href="#11-seguridad-y-buenas-prácticas">11. Seguridad</a> •
-  <a href="#12-colaboración-y-control-de-versiones">12. Colaboración</a> •
-  <a href="#13-documentación-adicional">13. Documentación</a> •
-  <a href="#14-extensión-y-mantenimiento">14. Extensión</a> •
-  <a href="#15-conclusión">15. Conclusión</a>
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td><a href="#1-propósito-y-descripción-funcional">1. Propósito y descripción funcional</a></td>
+      <td><a href="#2-público-objetivo-y-tecnologías-utilizadas">2. Público objetivo y tecnologías utilizadas</a></td>
+      <td><a href="#3-instalación-y-configuración">3. Instalación y configuración</a></td>
+      <td><a href="#4-estructura-del-proyecto">4. Estructura del proyecto</a></td>
+    </tr>
+    <tr>
+      <td><a href="#5-flujo-de-ejecución">5. Flujo de ejecución</a></td>
+      <td><a href="#6-convenciones-de-desarrollo">6. Convenciones de desarrollo</a></td>
+      <td><a href="#7-frontend">7. Frontend</a></td>
+      <td><a href="#8-backend">8. Backend</a></td>
+    </tr>
+    <tr>
+      <td><a href="#9-reutilización-y-helpers">9. Reutilización y helpers</a></td>
+      <td><a href="#10-testing-y-depuración">10. Testing y depuración</a></td>
+      <td><a href="#11-seguridad-y-buenas-prácticas">11. Seguridad y buenas prácticas</a></td>
+      <td><a href="#12-colaboración-y-control-de-versiones">12. Colaboración y control de versiones</a></td>
+    </tr>
+    <tr>
+      <td><a href="#13-documentación-adicional">13. Documentación adicional</a></td>
+      <td><a href="#14-extensión-y-mantenimiento">14. Extensión y mantenimiento</a></td>
+      <td><a href="#15-conclusión">15. Conclusión</a></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
 
 ## 1. Propósito y descripción funcional
 
