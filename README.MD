@@ -81,9 +81,9 @@ Dirigido a: Desarrolladores web en entornos PHP que necesiten una base estructur
 
 #### Configuración inicial:
 
-**config/SERVER:** contiene credenciales, claves de encriptación y parámetros de seguridad.
+- **config/SERVER:** contiene credenciales, claves de encriptación y parámetros de seguridad.
 
-**config/APP:** contiene constantes generales como nombre del sistema y rutas base.
+- **config/APP:** contiene constantes generales como nombre del sistema y rutas base.
 
 > `💡 Revisa estos archivos antes de desplegar en producción. Puedes parametrizar según entorno (dev, staging, prod).`
 
