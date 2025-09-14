@@ -1,0 +1,72 @@
+Propósito del Proyecto
+
+    Este proyecto está diseñado como una aplicación web modular basada en el patrón MVC (Modelo-Vista-Controlador), orientada a facilitar el desarrollo escalable, seguro y mantenible de interfaces dinámicas en PHP. Su estructura permite:
+
+        •Separación clara de responsabilidades entre lógica de negocio, presentación y control de flujo.
+
+        •Carga dinámica de vistas mediante URLs amigables gestionadas por .htaccess, lo que mejora la navegación y la extensibilidad.
+
+        •Gestión centralizada de constantes y configuración a través de los módulos APP y SERVER, permitiendo reutilización y seguridad.
+
+        •Integración de componentes reutilizables (layouts, helpers, assets) para acelerar el desarrollo frontend sin duplicar código.
+
+        •Seguridad incorporada mediante encriptación de datos sensibles, hashing de contraseñas y validación de sesiones.
+
+        •Escalabilidad progresiva, permitiendo agregar nuevas vistas, modelos y controladores sin alterar la estructura base.
+
+    El sistema está pensado para servir como plantilla base de proyectos PHP, adaptable a múltiples contextos: paneles administrativos, sitios informativos, sistemas internos o prototipos funcionales.
+
+Descripción funcional
+
+    Este proyecto es una aplicación web estructurada bajo el patrón MVC (Modelo-Vista-Controlador), diseñada para gestionar dinámicamente vistas PHP mediante rutas amigables. Su arquitectura modular permite una separación clara entre lógica de negocio, presentación y control de flujo, facilitando el mantenimiento, la escalabilidad y la reutilización de componentes tanto en frontend como backend.
+
+Público objetivo
+
+    Desarrolladores web que trabajen en entornos PHP y requieran una base estructurada para construir aplicaciones dinámicas, paneles administrativos, sistemas internos o prototipos funcionales. El proyecto está orientado a equipos técnicos que valoran la organización, la seguridad y la extensibilidad del código.
+
+Tecnologías principales
+
+    •PHP (con orientación a objetos y modularidad)
+
+    •Composer (gestión de dependencias)
+
+    •Bootstrap 5 (estilización y componentes frontend)
+
+    •AJAX (peticiones de datos asíncronas)
+
+    •JavaScript (interactividad y automatización)
+
+    •Apache + .htaccess (reescritura de URLs y configuración del servidor)
+
+    •HTML/CSS (estructura y presentación de vistas)
+
+    •PDO (acceso seguro a bases de datos)
+
+    •OpenSSL (encriptación de datos sensibles)
+
+    •GIT/Github (control de versiones)
+
+Archivos que no deben modificarse directamente
+
+.htaccess
+
+index.php
+
+composer.json / composer.lock
+
+config/SERVER/
+
+model/mainModel/
+
+🧩 Carpetas pensadas para extensión o personalización
+view/html/ → Agregar nuevas vistas
+
+assets/components/ → Crear nuevos fragmentos HTML reutilizables
+
+helpers/js/ y helpers/php/ → Añadir funciones compartidas
+
+docs/ → Documentar nuevas funcionalidades o decisiones técnicas
+
+model/ → Crear nuevos modelos que extiendan mainModel
+
+controller/ → Agregar nuevos controladores si se amplía la lógica

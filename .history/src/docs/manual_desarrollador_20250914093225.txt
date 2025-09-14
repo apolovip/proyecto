@@ -1,0 +1,18 @@
+estructura basica del proyecto 
+
+proyecto
+    |___.history //no tocar, este es el historial de cambios de la extension .history
+    |
+    |___src
+        |
+        |___assets //carpeta con elementos accedidos recurrentemente por front
+        |
+        |___config //constantes globales reconocidas por todo el sistema (empleados en front y back)
+        |
+        |___controller //controladores de las vistas
+        |
+        |__docs //documentos importantes para leer
+        |
+        |__helpers //fragmentos de codigo reutilizables tanto de php como de js (para evitar repetir codigo)
+        |
+        |___

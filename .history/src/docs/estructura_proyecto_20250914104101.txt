@@ -1,0 +1,62 @@
+estructura basica del proyecto 
+
+proyecto/
+│
+├── .history/                  → Historial de cambios generado por la extensión .history (no modificar manualmente)
+│
+├── src/
+│   ├── assets/                → Recursos reutilizables para el frontend
+│   │   ├── bootstrap/         → Archivos de Bootstrap locales (CSS/JS)
+│   │   ├── components/        → Fragmentos HTML reutilizables (botones, tarjetas, etc.)
+│   │   ├── icons/             → Iconos SVG utilizados en la interfaz
+│   │   ├── images/            → Imágenes y logotipos del proyecto
+│   │   └── layouts/           → Elementos repetitivos PHP del frontend
+│   │       ├── header.php     → Cabecera común de todas las vistas
+│   │       ├── footer.php     → Pie de página común
+│   │       ├── links.php      → Enlaces CSS y meta tags
+│   │       └── scripts.php    → Enlaces a scripts JS
+│   │
+│   ├── config/
+│   │   ├── APP/               → Constantes globales reutilizables (nombres, rutas, etc.)
+│   │   └── SERVER/            → Datos sensibles (credenciales, claves de encriptación)
+│   │                          ⚠️ No modificar sin autorización
+│   │
+│   ├── controller/
+│   │   └── vista_controller.php → Controlador principal que gestiona la carga de vistas según la URL
+│   │
+│   ├── docs/                  → Documentación técnica y notas internas
+│   │                          ✍️ Puede extenderse con manuales, diagramas, etc.
+│   │
+│   ├── helpers/               → Fragmentos de código reutilizable
+│   │   ├── js/                → Funciones JavaScript comunes
+│   │   └── php/               → Funciones PHP compartidas
+│   │                          ✅ Pensado para extensión
+│   │
+│   ├── model/
+│   │   ├── mainModel/         → Modelo base con métodos comunes (conexión, encriptación, etc.)
+│   │   └── vista_model.php    → Modelo que determina qué vista cargar según la URL
+│   │                          ⚠️ No modificar sin comprender la herencia
+│   │
+│   ├── view/
+│   │   ├── css/               → Estilos personalizados
+│   │   ├── html/              → Vistas estáticas
+│   │   ├── js/                → Scripts específicos por vista
+│   │   └── plantilla/         → Plantilla que integra layouts y vistas
+│   │                          ✅ Pensado para personalización visual
+│   │
+│   ├── .htaccess              → Configuración del servidor Apache (reescritura de URLs)
+│   │                          ⚠️ No modificar sin conocimiento técnico
+│   │
+│   ├── index.php              → Punto de entrada principal de la aplicación
+│   │                          ⚠️ No modificar sin revisar el flujo MVC
+│   │
+│   └── README.md              → Descripción general del proyecto para GitHub
+│
+├── vendor/                   → Dependencias gestionadas por Composer (Bootstrap, etc.)
+│                             ⚠️ No modificar manualmente
+│
+├── composer.json             → Declaración de paquetes y configuración de Composer
+│                             ⚠️ No modificar sin revisar compatibilidad
+│
+└── composer.lock             → Registro exacto de versiones instaladas
+                              ⚠️ No modificar manualmente

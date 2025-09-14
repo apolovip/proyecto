@@ -1,0 +1,5 @@
+estructura basica del proyecto 
+
+proyecto
+    |___.history //no tocar, este es el historial de cambios de la extension .history
+    |___

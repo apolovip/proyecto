@@ -1,0 +1,72 @@
+estructura basica del proyecto 
+
+proyecto
+    ├───.history //no tocar, este es el historial de cambios de la extension .history
+    │
+    ├───├───
+    │   │
+    │   ├───assets  →   Recursos reutilizables para el front
+    │   │   │
+    │   │   ├───bootstrap   →   Archivos de Bootstrap locales (CSS/JS)
+    │   │   │
+    │   │   ├───components  →   → Fragmentos HTML reutilizables (botones, tarjetas, etc.)
+    │   │   │
+    │   │   ├───icons     //iconos en formato .svg
+    │   │   │
+    │   │   ├───images    //imagenes y logos
+    │   │   │
+    │   │   └───layouts   //elementos repetitivos .php del front como header, footer, etc...
+    │   │       │
+    │   │       ├───footer.php
+    │   │       │
+    │   │       ├───header.php
+    │   │       │
+    │   │       ├───links.php
+    │   │       │
+    │   │       └───scripts.php
+    │   │
+    │   ├───config    //constantes globales reconocidas por todo el sistema (empleados en front y back)
+    │   │   │
+    │   │   ├───APP.php     //constantes globales para reutilizacion
+    │   │   │
+    │   │   └───SERVER.php     //constantes del sistema como contraseñas, IV´s de encriptacion, y datos del cliente
+    │   │
+    │   ├───controller    //controladores de las vistas
+    │   │   │
+    │   │   └───vista_controller.php //obtiene la url de $page y carga la vista obtenida del modelo
+    │   │
+    │   ├───docs      //documentos importantes para leer
+    │   │
+    │   ├───helpers    //fragmentos de codigo reutilizables tanto de php como de js (para evitar repetir codigo)
+    │   │   │
+    │   │   ├───js
+    │   │   │
+    │   │   └───php
+    │   │
+    │   ├───model     //modelos de entidades y de la base de datos
+    │   │   │
+    │   │   ├───mainModel //modelo principal, contiene metodos clave en cualquier modelo (todos los modelos heredan de este)
+    │   │   │
+    │   │   └───vista_model //modelo que obtiene la vista y lo pasa a la plantilla segun el argumento que le pase el controlador
+    │   │
+    │   ├───view      //vistas estaticas del proyecto
+    │   │   │
+    │   │   ├───css
+    │   │   │
+    │   │   ├───html
+    │   │   │
+    │   │   ├───js
+    │   │   │
+    │   │   └───plantilla //plantilla que carga los elementos repetitivos (layouts) y las paginas de la aplicacion
+    │   │
+    │   ├───.htaccess     //archivo de configuraciones del servidor (no tocar)
+    │   │
+    │   ├───index.php     //punto de ejecucion de toda la aplicacion
+    │   │
+    │   └───README.MD     //readme usado para el github
+    │
+    ├───vendor    //librerias y dependencias del proyecto (no tocar si no es necesario)
+    │
+    ├───composer.json     //informacion de paquetes y de composer (no tocar)
+    │
+    └───composer.lock     //informacion de paquetes y de composer (no tocar)
