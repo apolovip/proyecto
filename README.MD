@@ -4,35 +4,25 @@ Este repositorio contiene una aplicación web estructurada bajo el patrón **Mod
 
 ## Índice de navegación
 
-<h2 align="center">📘 Índice de navegación</h2>
+<h2 align="center">Índice de navegación</h2>
 
-<div align="center">
-  <table>
-    <thead>
-      <tr>
-        <th>Nº</th>
-        <th>Sección</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>1</td><td><a href="#1-propósito-y-descripción-funcional">Propósito y descripción funcional</a></td></tr>
-      <tr><td>2</td><td><a href="#2-público-objetivo-y-tecnologías-utilizadas">Público objetivo y tecnologías utilizadas</a></td></tr>
-      <tr><td>3</td><td><a href="#3-instalación-y-configuración">Instalación y configuración</a></td></tr>
-      <tr><td>4</td><td><a href="#4-estructura-del-proyecto">Estructura del proyecto</a></td></tr>
-      <tr><td>5</td><td><a href="#5-flujo-de-ejecución">Flujo de ejecución</a></td></tr>
-      <tr><td>6</td><td><a href="#6-convenciones-de-desarrollo">Convenciones de desarrollo</a></td></tr>
-      <tr><td>7</td><td><a href="#7-frontend">Frontend</a></td></tr>
-      <tr><td>8</td><td><a href="#8-backend">Backend</a></td></tr>
-      <tr><td>9</td><td><a href="#9-reutilización-y-helpers">Reutilización y helpers</a></td></tr>
-      <tr><td>10</td><td><a href="#10-testing-y-depuración">Testing y depuración</a></td></tr>
-      <tr><td>11</td><td><a href="#11-seguridad-y-buenas-prácticas">Seguridad y buenas prácticas</a></td></tr>
-      <tr><td>12</td><td><a href="#12-colaboración-y-control-de-versiones">Colaboración y control de versiones</a></td></tr>
-      <tr><td>13</td><td><a href="#13-documentación-adicional">Documentación adicional</a></td></tr>
-      <tr><td>14</td><td><a href="#14-extensión-y-mantenimiento">Extensión y mantenimiento</a></td></tr>
-      <tr><td>15</td><td><a href="#15-conclusión">Conclusión</a></td></tr>
-    </tbody>
-  </table>
-</div>
+<p align="center">
+  <a href="#1-propósito-y-descripción-funcional">1. Propósito</a> •
+  <a href="#2-público-objetivo-y-tecnologías-utilizadas">2. Público y tecnologías</a> •
+  <a href="#3-instalación-y-configuración">3. Instalación</a> •
+  <a href="#4-estructura-del-proyecto">4. Estructura</a> •
+  <a href="#5-flujo-de-ejecución">5. Flujo</a> •
+  <a href="#6-convenciones-de-desarrollo">6. Convenciones</a> •
+  <a href="#7-frontend">7. Frontend</a> •
+  <a href="#8-backend">8. Backend</a> •
+  <a href="#9-reutilización-y-helpers">9. Helpers</a> •
+  <a href="#10-testing-y-depuración">10. Testing</a> •
+  <a href="#11-seguridad-y-buenas-prácticas">11. Seguridad</a> •
+  <a href="#12-colaboración-y-control-de-versiones">12. Colaboración</a> •
+  <a href="#13-documentación-adicional">13. Documentación</a> •
+  <a href="#14-extensión-y-mantenimiento">14. Extensión</a> •
+  <a href="#15-conclusión">15. Conclusión</a>
+</p>
 
 ## 1. Propósito y descripción funcional
 
