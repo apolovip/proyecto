@@ -7,27 +7,27 @@ Este repositorio contiene una aplicación web estructurada bajo el patrón **Mod
 <div align="center">
   <table>
     <tr>
-      <td><a href="#1-propósito-y-descripción-funcional">1. Propósito y descripción funcional</a></td>
-      <td><a href="#2-público-objetivo-y-tecnologías-utilizadas">2. Público objetivo y tecnologías utilizadas</a></td>
-      <td><a href="#3-instalación-y-configuración">3. Instalación y configuración</a></td>
-      <td><a href="#4-estructura-del-proyecto">4. Estructura del proyecto</a></td>
+      <td><a href="#1-propósito-y-descripción-funcional" style="text-decoration:none; color:inherit;">1. Propósito y descripción funcional</a></td>
+      <td><a href="#2-público-objetivo-y-tecnologías-utilizadas" style="text-decoration:none; color:inherit;">2. Público objetivo y tecnologías utilizadas</a></td>
+      <td><a href="#3-instalación-y-configuración" style="text-decoration:none; color:inherit;">3. Instalación y configuración</a></td>
+      <td><a href="#4-estructura-del-proyecto" style="text-decoration:none; color:inherit;">4. Estructura del proyecto</a></td>
     </tr>
     <tr>
-      <td><a href="#5-flujo-de-ejecución">5. Flujo de ejecución</a></td>
-      <td><a href="#6-convenciones-de-desarrollo">6. Convenciones de desarrollo</a></td>
-      <td><a href="#7-frontend">7. Frontend</a></td>
-      <td><a href="#8-backend">8. Backend</a></td>
+      <td><a href="#5-flujo-de-ejecución" style="text-decoration:none; color:inherit;">5. Flujo de ejecución</a></td>
+      <td><a href="#6-convenciones-de-desarrollo" style="text-decoration:none; color:inherit;">6. Convenciones de desarrollo</a></td>
+      <td><a href="#7-frontend" style="text-decoration:none; color:inherit;">7. Frontend</a></td>
+      <td><a href="#8-backend" style="text-decoration:none; color:inherit;">8. Backend</a></td>
     </tr>
     <tr>
-      <td><a href="#9-reutilización-y-helpers">9. Reutilización y helpers</a></td>
-      <td><a href="#10-testing-y-depuración">10. Testing y depuración</a></td>
-      <td><a href="#11-seguridad-y-buenas-prácticas">11. Seguridad y buenas prácticas</a></td>
-      <td><a href="#12-colaboración-y-control-de-versiones">12. Colaboración y control de versiones</a></td>
+      <td><a href="#9-reutilización-y-helpers" style="text-decoration:none; color:inherit;">9. Reutilización y helpers</a></td>
+      <td><a href="#10-testing-y-depuración" style="text-decoration:none; color:inherit;">10. Testing y depuración</a></td>
+      <td><a href="#11-seguridad-y-buenas-prácticas" style="text-decoration:none; color:inherit;">11. Seguridad y buenas prácticas</a></td>
+      <td><a href="#12-colaboración-y-control-de-versiones" style="text-decoration:none; color:inherit;">12. Colaboración y control de versiones</a></td>
     </tr>
     <tr>
-      <td><a href="#13-documentación-adicional">13. Documentación adicional</a></td>
-      <td><a href="#14-extensión-y-mantenimiento">14. Extensión y mantenimiento</a></td>
-      <td><a href="#15-conclusión">15. Conclusión</a></td>
+      <td><a href="#13-documentación-adicional" style="text-decoration:none; color:inherit;">13. Documentación adicional</a></td>
+      <td><a href="#14-extensión-y-mantenimiento" style="text-decoration:none; color:inherit;">14. Extensión y mantenimiento</a></td>
+      <td><a href="#15-conclusión" style="text-decoration:none; color:inherit;">15. Conclusión</a></td>
       <td></td>
     </tr>
   </table>
