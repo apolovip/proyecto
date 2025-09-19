@@ -1,5 +1,0 @@
-</body>
-
-<!--cargar scripts-->
-
-</html>
