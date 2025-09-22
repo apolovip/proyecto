@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <!--estilos css-->
     <link rel="stylesheet" href="<?php echo SERVERURL . "view/css/index.css" ?>">
+    <link rel="stylesheet" href="<?php echo SERVERURL . "view/css/404.css" ?>">
     <link rel="stylesheet" href="<?php echo SERVERURL . "view/css/light/header.css" ?>">
 </head>
 
