@@ -4,7 +4,7 @@
             <form action="" method="post" class="form-control">
                 <input type="text" name="nombre" id="" class="form-control w-100" placeholder="nombre del usuario">
                 <input type="text" name="apellido" id="" class="form-control w-100" placeholder="apellido del usuario">
-                <button type="submit" class="btn-submit">Enviar</button>
+                <button type="submit" class="btn btn-success">Enviar</button>
             </form>
         </div>
     </div>

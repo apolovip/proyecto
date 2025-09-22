@@ -1,14 +1,33 @@
-.not-found-container {
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 400;
-    color: #90afc0 !important;
-    background-color: #18202c !important;
+@media(prefers-color-scheme: light) {
+    .not-found-container {
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 400;
+        color: #90afc0 !important;
+        background-color: #18202c !important;
+    }
+}
+
+@media(prefers-color-scheme: dark) {
+    .not-found-container {
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 400;
+        color: #f1f0ef !important;
+        background-color: #111110 !important;
+    }
 }
