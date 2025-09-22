@@ -2,7 +2,7 @@
 
 //constantes que se usan a lo largo del codigo
 
-const SERVERURL = "https://localhost/DEV/PHP/Gestion_inventario/";
+const SERVERURL = "https://localhost/DEV/PHP/Proyecto/src/";
 
 const NOMBRE = "PROYECTO";
 

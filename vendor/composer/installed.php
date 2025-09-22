@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'rafaelalvarez/proyecto',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'fab7f20ef279052dd6799f18bf314f55dbb88b2d',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'rafaelalvarez/proyecto' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'fab7f20ef279052dd6799f18bf314f55dbb88b2d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -25,6 +25,15 @@
             'reference' => '25aa8cc0b32f0d1a54be575347e6d84b70b1acd7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../twbs/bootstrap',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'twbs/bootstrap-icons' => array(
+            'pretty_version' => 'v1.13.1',
+            'version' => '1.13.1.0',
+            'reference' => 'ce0e49dd063243118a115f17ad1fe1fe7576d552',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twbs/bootstrap-icons',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
