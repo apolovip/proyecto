@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="<?php echo SERVERURL . "view/css/index.css" ?>">
     <link rel="stylesheet" href="<?php echo SERVERURL . "view/css/404.css" ?>">
     <link rel="stylesheet" href="<?php echo SERVERURL . "view/css/header.css" ?>">
+    <link rel="stylesheet" href="<?php echo SERVERURL . "view/css/footer.css" ?>">
 </head>
 
 <body>

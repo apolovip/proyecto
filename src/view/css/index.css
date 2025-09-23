@@ -1,4 +1,12 @@
 @media(prefers-color-scheme: light) {
+    :root {
+        --default-background-color: #fdfdfc;
+        --default-font-color: #2d2c28;
+        --font-color-light-grey: #7c7a74;
+        --font-color-dark-grey: #21201c;
+        --font-color-laravel: #ff0000;
+    }
+
     body {
         display: flex;
         flex-direction: column;
@@ -8,12 +16,20 @@
         font-optical-sizing: auto;
         font-style: normal;
         font-weight: 400;
-        color: #2d2c28;
-        background-color: #fdfdfc;
+        color: var(--default-font-color);
+        background-color: var(--default-background-color);
     }
 }
 
 @media(prefers-color-scheme: dark) {
+    :root {
+        --default-background-color: #111110;
+        --default-font-color: #f1f0ef;
+        --font-color-light-grey: #f1f0ef;
+        --font-color-dark-grey: #2a2a28;
+        --font-color-laravel: #ff0000;
+    }
+
     body {
         display: flex;
         flex-direction: column;
@@ -23,7 +39,7 @@
         font-optical-sizing: auto;
         font-style: normal;
         font-weight: 400;
-        color: #f1f0ef;
-        background-color: #111110;
+        color: var(--default-font-color);
+        background-color: var(--default-background-color);
     }
 }

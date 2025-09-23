@@ -3,7 +3,7 @@
         'name' => 'rafaelalvarez/proyecto',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'fab7f20ef279052dd6799f18bf314f55dbb88b2d',
+        'reference' => '26b3a16e324df51dc44da6c8bfef9c9f6b2e69ac',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'rafaelalvarez/proyecto' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'fab7f20ef279052dd6799f18bf314f55dbb88b2d',
+            'reference' => '26b3a16e324df51dc44da6c8bfef9c9f6b2e69ac',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

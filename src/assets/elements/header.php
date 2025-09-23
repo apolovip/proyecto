@@ -1,19 +1,4 @@
-<!--
-<style>
-    [class^="container"] {
-        border: 2px solid black;
-    }
-
-    [class^="row"] {
-        border: 2px solid red;
-    }
-
-    [class^="col"] {
-        border: 2px solid blue;
-    }
-</style>
--->
-<header class="nav position-relative">
+<header class="nav position-relative mb-3">
     <div class="container-fluid">
         <div class="row">
             <div class="col-6">
