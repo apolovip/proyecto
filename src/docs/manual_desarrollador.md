@@ -301,7 +301,7 @@ git merge master # Resolver conflictos si aparecen
 git push origin nombre-de-tu-rama
 ```
 ###
->Ir a [Contributing.md](src/docs/Contributing.md) para mas informaacion acerca de como colaboracion y trabajo en equipo.
+>Ir a [Contributing.md](Contributing.md) para mas informaacion acerca de como colaboracion y trabajo en equipo.
 
 ---
 
