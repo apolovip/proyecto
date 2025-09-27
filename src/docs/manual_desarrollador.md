@@ -318,7 +318,7 @@ La carpeta `docs/` centraliza los archivos de documentación técnica y es esenc
 
 ### Mantenimiento del Archivo README.md
 
-El [README.md](README.MD) debe mantenerse **actualizado** con cada cambio relevante en funcionalidades, estructura o requisitos técnicos.
+El [README.md](proyecto/README.MD) debe mantenerse **actualizado** con cada cambio relevante en funcionalidades, estructura o requisitos técnicos.
 
 ---
 
