@@ -114,4 +114,4 @@ La seguridad es una prioridad. Por favor, asegúrate de:
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia **MIT** - ver el archivo [LICENSE.md](src/docs/LICENSE.md) para más detalles.
+Este proyecto está bajo la Licencia **MIT** - ver el archivo [LICENSE.md](src/docs/LICENSE.MD) para más detalles.
