@@ -1,3 +1,0 @@
-usar fuente Inter en la interfaz de usuario
-
-basarse en la pagina de laravel para el front
