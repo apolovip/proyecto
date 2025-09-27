@@ -127,21 +127,24 @@ La configuración se centraliza en dos módulos clave:
 
 ---
 
-## 4. Flujo de Ejecución
+## 4. Flujo de Ejecución (Petición - Respuesta)
 
 El sistema utiliza un flujo de carga dinámico para renderizar vistas en función de la URL solicitada, manteniendo una arquitectura desacoplada.
 
 **Secuencia de Ejecución:**
 
-$$ \text{.htaccess} \to \text{index.php} \to \text{vista\_controller.php} \to \text{vista\_model.php} \to \text{plantilla.php} \to \text{Layouts + Vista} $$
+1. **Entrada:** `.htaccess` ➡️ 
+2. **Inicialización:** `index.php` ➡️ 
+3. **Control:** `vista_controller.php` ➡️ 
+4. **Datos:** `vista_model.php` ➡️ 
+5. **Ensamblaje:** `plantilla.php` ➡️ 
+6. **Salida:** **Layouts + Vista** 🚀
 
-### Explicación del Flujo:
+### Explicación del Ciclo:
 
-1.  **`.htaccess`**: Reescribe URLs amigables (ej: `/inicio`) a llamadas internas (`index.php?page=inicio`).
-2.  **`index.php`**: Actúa como punto de entrada e instancia el controlador principal.
-3.  **`vista_controller.php`**: Interpreta el parámetro `page` para determinar la vista a cargar.
-4.  **`vista_model.php`**: Valida que la vista exista en el arreglo `paginas_existentes`. (Si no existe, retorna un error 404).
-5.  **`plantilla.php`**: Carga la vista validada e integra los *layouts* comunes (`header`, `footer`, `scripts`).
+* **1. Entrada (.htaccess):** Dirige todas las peticiones a `index.php`.
+* **3. Lógica (vista_controller.php):** Procesa la solicitud, valida datos y decide qué información necesita.
+* **5. Renderizado (plantilla.php):** Une los datos obtenidos con la estructura visual (Layouts).
 
 ---
 
