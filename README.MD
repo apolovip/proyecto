@@ -100,6 +100,10 @@ git checkout -b feature/nombre-funcionalidad
 3.  Asegúrate de que tus cambios pasen las pruebas.
 4.  Realiza un `commit` descriptivo y abre un **Pull Request (PR)**.
 
+### Referencia a Guia de contribucion
+
+>[Contributing.md](src/docs/Contributing.md)
+
 ---
 
 ## 🛡️ Seguridad
